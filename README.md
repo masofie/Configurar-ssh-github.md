@@ -11,4 +11,10 @@ Si quieres buscar mas información sobre SSH puedes buscar en el siguiente enlac
 **Enalce:** (**https://es.wikipedia.org/wiki/Secure_Shell**)
 
 
-### Generar Clave SSH 
+## Generar Clave SSH 
+
+**Pasos a Seguir**
+
+### Paso 1 
+
+Abrir terminal y ejecutamos el siguiente comando para crear las claves .
