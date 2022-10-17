@@ -13,8 +13,6 @@ Si quieres buscar mas información sobre SSH puedes buscar en el siguiente enlac
 
 ## Generar Clave SSH 
 
-**Pasos a Seguir**
-
 ### Paso 1 
 
 Abrir terminal y ejecutamos el siguiente comando para crear las claves .
