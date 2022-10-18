@@ -13,7 +13,7 @@ Si quieres buscar mas información sobre SSH puedes buscar en el siguiente enlac
 
 ## Generar Clave SSH 
 
-### Paso 1 
+#### Paso 1 
 
 Abrir terminal y ejecutamos el siguiente comando para crear las claves . Y ejecutamos el siguiente comando :
 
@@ -27,13 +27,13 @@ Y después ejecutamos el siguiente comando para crear las claves
 
 ![1.png](./img/1.png)
 
-### Paso 2 
+#### Paso 2 
 
 Para ejecutar el siguiente comando , si estamos en fish . Tenemos que volver a bash y ejecutar el siguiente comando para inicial el agente ssh .
 
 ![2.png](./img/2.png)
 
-### Paso 3 
+#### Paso 3 
 
 Agregamos clave privada , para eso utilizamos este comando 
 
