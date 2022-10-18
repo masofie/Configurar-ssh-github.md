@@ -68,6 +68,8 @@ Siempre vamos a subir la clave pública
 
 #### Leemos Fichero 
 
+Queremos copiar la clave publica , entoces lo que tenemos que hacer primero es leer el fichero con el siguiente comando .
+
 **`cat ~/.ssh/id_ed25519.pub`**
 
 ![4.png](./img/4.png)
