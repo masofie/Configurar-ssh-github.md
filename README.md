@@ -30,3 +30,5 @@ Y después ejecutamos el siguiente comando para crear las claves
 ### Paso 2 
 
 Para ejecutar el siguiente comando , si estamos en fish . Tenemos que volver a bash y ejecutar el siguiente comando para inicial el agente ssh .
+
+![2.png](./img/2.png)
