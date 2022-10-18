@@ -19,7 +19,7 @@ Abrir terminal y ejecutamos el siguiente comando para crear las claves . Y ejecu
 
 Primero nos colocamos en nuestro home y hacemos un 
 
-**`pwd** 
+**`pwd`** 
 
 Y después ejecutamos el siguiente comando para crear las claves 
 
