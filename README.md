@@ -16,3 +16,5 @@ Si quieres buscar mas información sobre SSH puedes buscar en el siguiente enlac
 ### Paso 1 
 
 Abrir terminal y ejecutamos el siguiente comando para crear las claves .
+
+![1.png](./img/1.png)
