@@ -44,3 +44,7 @@ Agregamos clave privada , para eso utilizamos este comando
 ## Añadiendo clave SSH en Git 
 
 Para añadir la clave que acabas que crear en GitHUb, primero hay que copiar la clave para después pegrala y para eso utilizamos este comando .
+
+Siempre vamos a subir la clave pública 
+
+**`cat ~/.ssh/id_ed25519.pub`**
