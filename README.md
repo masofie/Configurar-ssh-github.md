@@ -47,6 +47,10 @@ Para añadir la clave que acabas que crear en GitHUb, primero hay que copiar la 
 
 Siempre vamos a subir la clave pública 
 
+#### Paso 1 
+
 **`cat ~/.ssh/id_ed25519.pub`**
 
 ![4.png](./img/4.png)
+
+#### Paso 2
