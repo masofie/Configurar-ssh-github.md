@@ -1,5 +1,21 @@
 # Configuración SSH para Git/GitHub desde una Máquina Virtual
 
+##Indice 
+
+- [Configuración SSH para Git/GitHub desde una Máquina Virtual](#configuración-ssh-para-gitgithub-desde-una-máquina-virtual)
+  - [¿ Qué es SSH ?](#-qué-es-ssh-)
+  - [Generar Clave SSH](#generar-clave-ssh)
+      - [Paso 1](#paso-1)
+      - [Paso 2](#paso-2)
+      - [Paso 3](#paso-3)
+  - [Añadiendo clave SSH en Git](#añadiendo-clave-ssh-en-git)
+      - [Paso 1](#paso-1-1)
+      - [Paso 2](#paso-2-1)
+      - [Paso 3](#paso-3-1)
+      - [Paso 4](#paso-4)
+      - [Paso 5](#paso-5)
+      - [Clave creada](#clave-creada)
+
 ## ¿ Qué es SSH ?
 
 El SSH , es un protocolo de acceso remoto que es utilizado mediante un canal seguro y que toda información esta cifrada .
