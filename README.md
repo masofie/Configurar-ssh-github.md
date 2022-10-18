@@ -8,11 +8,11 @@
   - [Generar Clave SSH](#generar-clave-ssh)
       - [Creamos claves por el Terminal](#creamos-claves-por-el-terminal)
       - [Nos cambiamos de Fish a Bash](#nos-cambiamos-de-fish-a-bash)
-      - [Paso 3](#paso-3)
+      - [Agregamos Clave Privada](#agregamos-clave-privada)
   - [Añadiendo clave SSH en Git](#añadiendo-clave-ssh-en-git)
-      - [Paso 1](#paso-1)
+      - [Leemos fichero](#leemos-fichero)
       - [Paso 2](#paso-2)
-      - [Paso 3](#paso-3-1)
+      - [Paso 3](#paso-3)
       - [Paso 4](#paso-4)
       - [Paso 5](#paso-5)
       - [Clave creada](#clave-creada)
@@ -50,7 +50,7 @@ Para ejecutar el siguiente comando , si estamos en fish . Tenemos que volver a b
 
 ![2.png](./img/2.png)
 
-#### Paso 3 
+#### Agregamos Clave Privada 
 
 Agregamos clave privada , para eso utilizamos este comando 
 
@@ -64,7 +64,7 @@ Para añadir la clave que acabas que crear en GitHUb, primero hay que copiar la 
 
 Siempre vamos a subir la clave pública 
 
-#### Paso 1 
+#### Leemos fichero 
 
 **`cat ~/.ssh/id_ed25519.pub`**
 
