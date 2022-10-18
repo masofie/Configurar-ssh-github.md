@@ -68,3 +68,5 @@ Después que estamos en la Configuración vamos a **SSH and GPG keys**
 #### Paso 4 
 
 En la nueva ventana que se abrirá en la parte superior a la derecha le damos clic en **New SSH key**
+
+![7.png](./img/7.png)
