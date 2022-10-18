@@ -26,3 +26,7 @@ Y después ejecutamos el siguiente comando para crear las claves
 **`ssh-keygen -t ed25519 -C "tu correo electrónico"`**
 
 ![1.png](./img/1.png)
+
+### Paso 2 
+
+Para ejecutar el siguiente comando , si estamos en fish . Tenemos que volver a bash y ejecutar el siguiente comando para inicial el agente ssh .
