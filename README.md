@@ -54,3 +54,7 @@ Siempre vamos a subir la clave pública
 ![4.png](./img/4.png)
 
 #### Paso 2
+
+Para añadir la clave pública lo primero que hay que hacer es  ir a nuestro GitHUb e ir a " **Configuración** " .
+
+![5.png](./img/5.png)
