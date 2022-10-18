@@ -14,8 +14,8 @@
       - [Configuración de Github](#configuración-de-github)
       - [Apartado de Claves SSH](#apartado-de-claves-ssh)
       - [Creamos nueva Clave SSH](#creamos-nueva-clave-ssh)
-      - [Paso 5](#paso-5)
-      - [Clave creada](#clave-creada)
+      - [Titulo y Clave Copiada](#titulo-y-clave-copiada)
+  - [Clave creada](#clave-creada)
 
 ## ¿ Qué es SSH ?
 
@@ -88,13 +88,13 @@ En la nueva ventana que se abrirá en la parte superior a la derecha le damos cl
 
 ![7.png](./img/7.png)
 
-#### Paso 5 
+#### Titulo y Clave Copiada  
 
 Por ultimo colocamos el titulo de nuestra clave y mas para abajo colocamos nuestra clave . Y le damos en crear .
 
 ![8.png](./img/8.png)
 
-#### Clave creada 
+## Clave creada 
 
 Aqui podmeos ver que se ha copiado correctamente en nuestro GitHub
 
