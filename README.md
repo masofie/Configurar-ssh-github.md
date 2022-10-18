@@ -36,3 +36,7 @@ Para ejecutar el siguiente comando , si estamos en fish . Tenemos que volver a b
 ### Paso 3 
 
 Agregamos clave privada , para eso utilizamos este comando 
+
+**`ssh-add ~/.ssh/id_ed25519`**
+
+![3.png](./img/3.png)
