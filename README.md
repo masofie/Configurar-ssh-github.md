@@ -11,8 +11,8 @@
       - [Agregamos Clave Privada](#agregamos-clave-privada)
   - [Añadiendo clave SSH en Git](#añadiendo-clave-ssh-en-git)
       - [Leemos fichero](#leemos-fichero)
-      - [Paso 2](#paso-2)
-      - [Paso 3](#paso-3)
+      - [Configuración de Github](#configuración-de-github)
+      - [Apartado de Claves](#apartado-de-claves)
       - [Paso 4](#paso-4)
       - [Paso 5](#paso-5)
       - [Clave creada](#clave-creada)
@@ -70,13 +70,13 @@ Siempre vamos a subir la clave pública
 
 ![4.png](./img/4.png)
 
-#### Paso 2
+#### Configuración de Github 
 
 Para añadir la clave pública lo primero que hay que hacer es  ir a nuestro GitHUb e ir a " **Configuración** " .
 
 ![5.png](./img/5.png)
 
-#### Paso 3
+#### Apartado de Claves 
 
 Después que estamos en la Configuración vamos a **SSH and GPG keys** 
 
