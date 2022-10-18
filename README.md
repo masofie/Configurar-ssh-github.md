@@ -70,3 +70,9 @@ Después que estamos en la Configuración vamos a **SSH and GPG keys**
 En la nueva ventana que se abrirá en la parte superior a la derecha le damos clic en **New SSH key**
 
 ![7.png](./img/7.png)
+
+#### Paso 5 
+
+Por ultimo colocamos el titulo de nuestra clave y mas para abajo colocamos nuestra clave . Y le damos en crear .
+
+![8.png](./img/8.png)
