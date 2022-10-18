@@ -5,12 +5,12 @@
 - [Configuración SSH para Git/GitHub desde una Máquina Virtual](#configuración-ssh-para-gitgithub-desde-una-máquina-virtual)
   - [¿ Qué es SSH ?](#-qué-es-ssh-)
   - [Generar Clave SSH](#generar-clave-ssh)
-      - [Paso 1](#paso-1)
-      - [Paso 2](#paso-2)
+      - [Creamos claves por el Terminal](#creamos-claves-por-el-terminal)
+      - [Nos cambiamos de Fish a Bash](#nos-cambiamos-de-fish-a-bash)
       - [Paso 3](#paso-3)
   - [Añadiendo clave SSH en Git](#añadiendo-clave-ssh-en-git)
-      - [Paso 1](#paso-1-1)
-      - [Paso 2](#paso-2-1)
+      - [Paso 1](#paso-1)
+      - [Paso 2](#paso-2)
       - [Paso 3](#paso-3-1)
       - [Paso 4](#paso-4)
       - [Paso 5](#paso-5)
@@ -29,7 +29,7 @@ Si quieres buscar mas información sobre SSH puedes buscar en el siguiente enlac
 
 ## Generar Clave SSH 
 
-#### Paso 1 
+#### Creamos claves por el Terminal
 
 Abrir terminal y ejecutamos el siguiente comando para crear las claves . Y ejecutamos el siguiente comando :
 
@@ -43,7 +43,7 @@ Y después ejecutamos el siguiente comando para crear las claves
 
 ![1.png](./img/1.png)
 
-#### Paso 2 
+#### Nos cambiamos de Fish a Bash 
 
 Para ejecutar el siguiente comando , si estamos en fish . Tenemos que volver a bash y ejecutar el siguiente comando para inicial el agente ssh .
 
