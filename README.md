@@ -58,3 +58,9 @@ Siempre vamos a subir la clave pública
 Para añadir la clave pública lo primero que hay que hacer es  ir a nuestro GitHUb e ir a " **Configuración** " .
 
 ![5.png](./img/5.png)
+
+#### Paso 3
+
+Después que estamos en la Configuración vamos a **SSH and GPG keys** 
+
+![6.png](./img/6.png)
