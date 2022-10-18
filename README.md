@@ -10,10 +10,10 @@
       - [Nos cambiamos de Fish a Bash](#nos-cambiamos-de-fish-a-bash)
       - [Agregamos Clave Privada](#agregamos-clave-privada)
   - [Añadiendo clave SSH en Git](#añadiendo-clave-ssh-en-git)
-      - [Leemos fichero](#leemos-fichero)
+      - [Leemos Fichero](#leemos-fichero)
       - [Configuración de Github](#configuración-de-github)
-      - [Apartado de Claves](#apartado-de-claves)
-      - [Paso 4](#paso-4)
+      - [Apartado de Claves SSH](#apartado-de-claves-ssh)
+      - [Creamos nueva Clave SSH](#creamos-nueva-clave-ssh)
       - [Paso 5](#paso-5)
       - [Clave creada](#clave-creada)
 
@@ -64,7 +64,7 @@ Para añadir la clave que acabas que crear en GitHUb, primero hay que copiar la 
 
 Siempre vamos a subir la clave pública 
 
-#### Leemos fichero 
+#### Leemos Fichero 
 
 **`cat ~/.ssh/id_ed25519.pub`**
 
@@ -76,13 +76,13 @@ Para añadir la clave pública lo primero que hay que hacer es  ir a nuestro Git
 
 ![5.png](./img/5.png)
 
-#### Apartado de Claves 
+#### Apartado de Claves SSH
 
 Después que estamos en la Configuración vamos a **SSH and GPG keys** 
 
 ![6.png](./img/6.png)
 
-#### Paso 4 
+#### Creamos nueva Clave SSH
 
 En la nueva ventana que se abrirá en la parte superior a la derecha le damos clic en **New SSH key**
 
