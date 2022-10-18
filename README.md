@@ -15,6 +15,14 @@ Si quieres buscar mas información sobre SSH puedes buscar en el siguiente enlac
 
 ### Paso 1 
 
-Abrir terminal y ejecutamos el siguiente comando para crear las claves .
+Abrir terminal y ejecutamos el siguiente comando para crear las claves . Y ejecutamos el siguiente comando :
+
+Primero nos colocamos en nuestro home y hacemos un 
+
+**`pwd** 
+
+Y después ejecutamos el siguiente comando para crear las claves 
+
+**`ssh-keygen -t ed25519 -C "tu correo electrónico"`**
 
 ![1.png](./img/1.png)
