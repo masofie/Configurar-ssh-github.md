@@ -1,8 +1,9 @@
 # Configuración SSH para Git/GitHub desde una Máquina Virtual
 
-##Indice 
+## Indice 
 
 - [Configuración SSH para Git/GitHub desde una Máquina Virtual](#configuración-ssh-para-gitgithub-desde-una-máquina-virtual)
+  - [Indice](#indice)
   - [¿ Qué es SSH ?](#-qué-es-ssh-)
   - [Generar Clave SSH](#generar-clave-ssh)
       - [Creamos claves por el Terminal](#creamos-claves-por-el-terminal)
