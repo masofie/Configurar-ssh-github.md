@@ -64,3 +64,7 @@ Para añadir la clave pública lo primero que hay que hacer es  ir a nuestro Git
 Después que estamos en la Configuración vamos a **SSH and GPG keys** 
 
 ![6.png](./img/6.png)
+
+#### Paso 4 
+
+En la nueva ventana que se abrirá en la parte superior a la derecha le damos clic en **New SSH key**
