@@ -79,6 +79,6 @@ Por ultimo colocamos el titulo de nuestra clave y mas para abajo colocamos nuest
 
 #### Clave creada 
 
-Aqui podmeos ver que se ha creado correctamente .
+Aqui podmeos ver que se ha copiado correctamente en nuestro GitHub
 
 ![9.png](./img/9.png)
