@@ -27,7 +27,8 @@
 
 🔎 Puedes leer más en:
 
-[Wikipedia - SSH](es.wikipedia.org/wiki/Secure_Shell)
+👉 [Wikipedia - SSH](https://es.wikipedia.org/wiki/Secure_Shell)
+
 <br>
 <br>
 
