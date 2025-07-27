@@ -98,9 +98,9 @@ ssh-add ~/.ssh/id_ed25519
 ## 📩 2.1 Añadir clave SSH en GitHub
 <br>
 
-Una vez generada la clave, debemos copiar la clave pública y añadirla a nuestra cuenta de **GitHub** .
+Una vez generada la clave  , debemos copiar la ``clave pública`` y añadirla a nuestra cuenta de **GitHub** .
 
-⚠️ Importante: ¡Solo se comparte la clave pública, nunca la privada!
+``⚠️ Importante:`` ¡Solo se comparte la clave pública , nunca la privada!
 <br>
 <br>
 
@@ -122,9 +122,9 @@ cat ~/.ssh/id_ed25519.pub
 ### ⚙️ 2.3 Configuración en GitHub
 <br>
 
-  - Ve a tu cuenta de GitHub
+  - Ve a tu cuenta de ``GitHub``
   - Haz clic en tu foto de perfil (esquina superior derecha)
-  - En el menú, entra a Settings
+  - En el menú, entra a ``Settings``
 
 
 ![5.png](./img/5.png)
@@ -135,7 +135,7 @@ cat ~/.ssh/id_ed25519.pub
 ### 🔐 2.4 Apartado de claves SSH
 <br>
 
-En el menú lateral izquierdo, haz clic en :
+En el menú lateral izquierdo , haz clic en :
 
   - SSH and GPG keys
 
@@ -160,11 +160,11 @@ Haz clic en el botón verde :
 ### ✍️ 2.6 Título y clave copiada
 <br>
 
-  - Pon un nombre para identificar tu clave (ej: VM Ubuntu)
+  - Pon un nombre para identificar tu clave ``(ej: VM Ubuntu)``
   
   - Pega la clave pública en el cuadro inferior
   
-  - Haz clic en Add SSH key
+  - Haz clic en ``Add SSH key``
 
 ![8.png](./img/8.png)
 <br>
@@ -173,7 +173,8 @@ Haz clic en el botón verde :
 
 
 ## ✅ 2.7 Clave creada correctamente
+<br>
 
-🎉 ¡Listo! Ya tienes tu clave ``SSH`` configurada en **GitHub** y puedes usar git clone, ``git push`` o ``git pull`` de forma segura y sin tener que escribir tu usuario y contraseña cada vez.
+🎉 ¡Listo! Ya tienes tu clave ``SSH`` configurada en **GitHub** y puedes usar git clone , ``git push`` o ``git pull`` de forma segura y sin tener que escribir tu usuario y contraseña cada vez.
 
 ![9.png](./img/9.png)
