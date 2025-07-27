@@ -1,105 +1,178 @@
-# Configuración SSH para Git/GitHub desde una Máquina Virtual
+# 🔐 Configuración SSH para Git/GitHub desde una Máquina Virtual
+<br>
 
-## Indice 
+**📑 Indice**
+- [🔐 Configuración SSH para Git/GitHub desde una Máquina Virtual](#-configuración-ssh-para-gitgithub-desde-una-máquina-virtual)
+  - [❓ ¿Qué es SSH?](#-qué-es-ssh)
+  - [🛠️ 1. Generar Clave SSH](#️-1-generar-clave-ssh)
+    - [📄 1.1 Creamos claves por el terminal](#-11-creamos-claves-por-el-terminal)
+    - [🔁 1.2 Nos cambiamos de Fish a Bash](#-12-nos-cambiamos-de-fish-a-bash)
+    - [🔑 1.3 Agregamos clave privada](#-13-agregamos-clave-privada)
+  - [📩 2.1 Añadir clave SSH en GitHub](#-21-añadir-clave-ssh-en-github)
+    - [📖 2.2 Leemos el fichero](#-22-leemos-el-fichero)
+    - [⚙️ 2.3 Configuración en GitHub](#️-23-configuración-en-github)
+    - [🔐 2.4 Apartado de claves SSH](#-24-apartado-de-claves-ssh)
+    - [🆕 2.5 Crear nueva clave SSH](#-25-crear-nueva-clave-ssh)
+    - [✍️ 2.6 Título y clave copiada](#️-26-título-y-clave-copiada)
+  - [✅ 2.7 Clave creada correctamente](#-27-clave-creada-correctamente)
 
-- [Configuración SSH para Git/GitHub desde una Máquina Virtual](#configuración-ssh-para-gitgithub-desde-una-máquina-virtual)
-  - [Indice](#indice)
-  - [¿ Qué es SSH ?](#-qué-es-ssh-)
-  - [Generar Clave SSH](#generar-clave-ssh)
-      - [Creamos claves por el Terminal](#creamos-claves-por-el-terminal)
-      - [Nos cambiamos de Fish a Bash](#nos-cambiamos-de-fish-a-bash)
-      - [Agregamos Clave Privada](#agregamos-clave-privada)
-  - [Añadiendo clave SSH en Git](#añadiendo-clave-ssh-en-git)
-      - [Leemos Fichero](#leemos-fichero)
-      - [Configuración de Github](#configuración-de-github)
-      - [Apartado de Claves SSH](#apartado-de-claves-ssh)
-      - [Creamos nueva Clave SSH](#creamos-nueva-clave-ssh)
-      - [Titulo y Clave Copiada](#titulo-y-clave-copiada)
-  - [Clave creada](#clave-creada)
+<br>
 
-## ¿ Qué es SSH ?
+## ❓ ¿Qué es SSH?
+<br>
 
-El SSH , es un protocolo de acceso remoto que es utilizado mediante un canal seguro y que toda información esta cifrada .
+``SSH (Secure Shell)`` es un protocolo de acceso remoto seguro que cifra toda la información que se transmite entre equipos.
 
-![portada.png](./img/portada.png)
+📡 Su puerto por defecto es el ``22`` , y se utiliza para conexiones seguras entre máquinas , como por ejemplo desde tu máquina virtual a **GitHub** .
 
-El puerto estándar que utiliza es el 22 , para comunicarse remotamente desde una màquina .
+🔎 Puedes leer más en:
 
-Si quieres buscar mas información sobre SSH puedes buscar en el siguiente enlace .
-
-**Enalce:** (**https://es.wikipedia.org/wiki/Secure_Shell**)
+👉 [Wikipedia - SSH](es.wikipedia.org/wiki/Secure_Shell)
+<br>
+<br>
 
 
-## Generar Clave SSH 
+## 🛠️ 1. Generar Clave SSH
+<br>
 
-#### Creamos claves por el Terminal
+### 📄 1.1 Creamos claves por el terminal
+<br>
 
-Abrir terminal y ejecutamos el siguiente comando para crear las claves . Y ejecutamos el siguiente comando :
 
-Primero nos colocamos en nuestro home y hacemos un 
+1 - 📄 Creamos claves por el terminal
 
-**`pwd`** 
+  - Abre una terminal.
 
-Y después ejecutamos el siguiente comando para crear las claves 
+  - Asegúrate de estar en tu carpeta personal (home):
 
-**`ssh-keygen -t ed25519 -C "tu correo electrónico"`**
+~~~~
+pwd
+~~~~
+<br>
+<br>
+
+
+2 - Luego ejecuta el comando para generar la ``clave SSH`` .💡 El ``-C`` sirve para añadir un comentario (normalmente tu email).
+
+~~~~
+ssh-keygen -t ed25519 -C "tu-correo@ejemplo.com"
+~~~~
 
 ![1.png](./img/1.png)
+<br>
+<br>
 
-#### Nos cambiamos de Fish a Bash 
 
-Para ejecutar el siguiente comando , si estamos en fish . Tenemos que volver a bash y ejecutar el siguiente comando para inicial el agente ssh .
+
+### 🔁 1.2 Nos cambiamos de Fish a Bash
+<br>
+
+
+1 - 💡 Si estás usando ``fish shell`` , cambia temporalmente a Bash, ya que el agente ``SSH`` no siempre funciona correctamente en ``fish`` . Después de eso, puedes ejecutar el siguiente comando sin problemas .
+
+~~~~
+bash
+~~~~
 
 ![2.png](./img/2.png)
+<br>
+<br>
 
-#### Agregamos Clave Privada 
 
-Agregamos clave privada , para eso utilizamos este comando 
+### 🔑 1.3 Agregamos clave privada
+<br> 
 
-**`ssh-add ~/.ssh/id_ed25519`**
+1 - Para que la clave pueda ser usada por el sistema , la añadimos con :
+
+~~~~
+ssh-add ~/.ssh/id_ed25519
+~~~~
 
 ![3.png](./img/3.png)
+<br> 
+<br> 
 
-## Añadiendo clave SSH en Git 
 
-Para añadir la clave que acabas que crear en GitHUb, primero hay que copiar la clave para después pegrala y para eso utilizamos este comando .
 
-Siempre vamos a subir la clave pública 
+## 📩 2.1 Añadir clave SSH en GitHub
+<br>
 
-#### Leemos Fichero 
+Una vez generada la clave, debemos copiar la clave pública y añadirla a nuestra cuenta de **GitHub** .
 
-Queremos copiar la clave publica , entoces lo que tenemos que hacer primero es leer el fichero con el siguiente comando .
+⚠️ Importante: ¡Solo se comparte la clave pública, nunca la privada!
+<br>
+<br>
 
-**`cat ~/.ssh/id_ed25519.pub`**
+
+### 📖 2.2 Leemos el fichero
+<br>
+
+Copiamos la clave pública con . 🔍 Selecciona todo el contenido y cópialo :
+
+~~~~
+cat ~/.ssh/id_ed25519.pub
+~~~~
 
 ![4.png](./img/4.png)
+<br>
+<br>
 
-#### Configuración de Github 
 
-Para añadir la clave pública lo primero que hay que hacer es  ir a nuestro GitHUb e ir a " **Configuración** " .
+### ⚙️ 2.3 Configuración en GitHub
+<br>
+
+  - Ve a tu cuenta de GitHub
+  - Haz clic en tu foto de perfil (esquina superior derecha)
+  - En el menú, entra a Settings
+
 
 ![5.png](./img/5.png)
+<br>
+<br>
 
-#### Apartado de Claves SSH
 
-Después que estamos en la Configuración vamos a **SSH and GPG keys** 
+### 🔐 2.4 Apartado de claves SSH
+<br>
+
+En el menú lateral izquierdo, haz clic en :
+
+  - SSH and GPG keys
 
 ![6.png](./img/6.png)
+<br>
+<br>
 
-#### Creamos nueva Clave SSH
 
-En la nueva ventana que se abrirá en la parte superior a la derecha le damos clic en **New SSH key**
+### 🆕 2.5 Crear nueva clave SSH
+<br>
+
+Haz clic en el botón verde :
+
+ - New SSH key
 
 ![7.png](./img/7.png)
+<br>
+<br>
 
-#### Titulo y Clave Copiada  
 
-Por ultimo colocamos el titulo de nuestra clave y mas para abajo colocamos nuestra clave . Y le damos en crear .
+
+### ✍️ 2.6 Título y clave copiada
+<br>
+
+  - Pon un nombre para identificar tu clave (ej: VM Ubuntu)
+
+  - Pega la clave pública en el cuadro inferior
+
+  - Haz clic en Add SSH key
 
 ![8.png](./img/8.png)
+<br>
+<br>
 
-## Clave creada 
 
-Aqui podmeos ver que se ha copiado correctamente en nuestro GitHub
+
+## ✅ 2.7 Clave creada correctamente
+
+🎉 ¡Listo! Ya tienes tu clave ```SSH`` configurada en **GitHub** y puedes usar git clone, ``git push`` o ``git pull`` de forma segura y sin tener que escribir tu usuario y contraseña cada vez.
 
 ![9.png](./img/9.png)
