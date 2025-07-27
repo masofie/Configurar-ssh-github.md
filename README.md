@@ -161,9 +161,9 @@ Haz clic en el botón verde :
 <br>
 
   - Pon un nombre para identificar tu clave (ej: VM Ubuntu)
-
+  
   - Pega la clave pública en el cuadro inferior
-
+  
   - Haz clic en Add SSH key
 
 ![8.png](./img/8.png)
@@ -174,6 +174,6 @@ Haz clic en el botón verde :
 
 ## ✅ 2.7 Clave creada correctamente
 
-🎉 ¡Listo! Ya tienes tu clave ```SSH`` configurada en **GitHub** y puedes usar git clone, ``git push`` o ``git pull`` de forma segura y sin tener que escribir tu usuario y contraseña cada vez.
+🎉 ¡Listo! Ya tienes tu clave ``SSH`` configurada en **GitHub** y puedes usar git clone, ``git push`` o ``git pull`` de forma segura y sin tener que escribir tu usuario y contraseña cada vez.
 
 ![9.png](./img/9.png)
